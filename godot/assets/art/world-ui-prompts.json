@@ -1,0 +1,17 @@
+[
+  {
+    "name": "realm-map-v2",
+    "prompt": "Create a beautiful wide landscape fantasy strategy game WORLD MAP background, top-down illustrated pixel-art cartography with finely textured painterly pixel clusters, grounded gloomy atmosphere but readable. A single broad continuous island fills most of 3:2 canvas surrounded by dark desaturated teal ocean, narrow irregular coastline. Green golden open farmlands in center, dark forests west, snow mountains north, volcanic crags northeast, brown highlands east, blue marshes southeast, harbor coves south. Winding rivers, subtle winding roads connecting clear open settlement sites, a few tiny ruined stone structures. Strong elegant geography, no visual clutter, avoid dense tiny details. Moody mist soft edges, moonlit smoky green palette with restrained gold earth and blue rivers. This is a GAME MAP BACKGROUND: no text, no symbols, no markers, no borders, no title, no compass, no UI. Large central traversable landmass, no giant sea gaps between regions.",
+    "source": "/Users/gurkiratpanesar/.codex/generated_images/01a161bb-cade-7d01-895d-85ae562d2f01/exec-afd19ab5-228a-4912-8635-283ebcaef31d.png"
+  },
+  {
+    "name": "hud-icons",
+    "prompt": "Game UI icon atlas, EXACT FIVE columns by FOUR rows, twenty isolated icons all centered in equal square cells, transparent background, no background squares or frames, no text or letters. Dark fantasy pixel art detailed hand-painted pixel clusters, muted antique gold and ivory steel with teal accents, highly readable silhouettes. Row1: sword, heavy axe, shield, winged boot, war horn. Row2: speech bubble, folded parchment map, steel helmet, thatched house, two pause bars. Row3: gold coin, stack of logs, iron ore, loaf of bread, sheaf of wheat. Row4: hammer, bed, heart, two people, satchel. All twenty icons fully contained in cells with generous blank margins. Landscape image5:4.",
+    "source": "/Users/gurkiratpanesar/.codex/generated_images/01a161bb-cade-7d01-895d-85ae562d2f01/exec-769a0a74-291c-4c87-ab1f-616d5219125b.png"
+  },
+  {
+    "name": "villager-work",
+    "prompt": "Production game sprite animation atlas, FOUR columns by EIGHT rows. Each row FOUR frames of one occupation doing a looping work animation, full adult human bodies, transparent background, uniform square cells feet aligned, generous margins no overlap no text. Match reference dark grounded detailed pixelart villagers with teal cloth. Row1 farmer strawhat hoeing soil; row2 brunette weaver cream blouse gray apron sewing cloth; row3 mustached trader teal coat counting goods; row4 teal hood herbalist kneeling gathering plants; row5 bald bearded blacksmith leather apron swinging hammer onto SMALL ANVIL included within cell; row6 baker woman cream headscarf teal dress kneading dough on small waist-high table; row7 gray-haired elder brown shawl gesturing during conversation; row8 young courier teal tunic lifting brown crate. Three-quarter elevated camera, figures face southeast. SAME character identity and position all four frames of each row. Visible different tool/arm positions throughout action. Eight rows exactly.",
+    "source": "/Users/gurkiratpanesar/.codex/generated_images/01a161bb-cade-7d01-895d-85ae562d2f01/exec-12fe6a2b-2114-434d-bf55-ed34a0b42396.png"
+  }
+]

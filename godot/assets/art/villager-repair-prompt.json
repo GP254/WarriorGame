@@ -1,0 +1,5 @@
+{
+  "prompt": "Edit target: the attached villagers-a sprite sheet. Correct its layout: it currently has only SEVEN rows, missing the front-view craftswoman. Output EXACTLY EIGHT columns and EIGHT equally spaced rows on a square transparent canvas, all 64 equal cells. Preserve the four characters' designs and crisp pixel art. Rows1 and2 farmer rear and front walk cycles. Rows3 and4 female craftswoman rear AND FRONT walk cycles (add the missing front row). Rows5 and6 merchant rear and front walk cycles. Rows7 and8 herbalist rear and front walk cycles. Eight distinct alternating leg walk frames across each row. Rear faces up-screen, front faces down-screen, high overhead camera. Uniform cell dimensions and transparent padding. NO text, no grid lines. Count all8rows before finishing.",
+  "source": "/Users/gurkiratpanesar/.codex/generated_images/01a161bb-cade-7d01-895d-85ae562d2f01/exec-ef4f6efb-fdc6-4fa9-a060-be5d0f9728dd.png",
+  "mode": "Built-in ChatGPT image generation"
+}
