@@ -1,0 +1,11 @@
+{
+  "mode": "built-in image_gen",
+  "terrain": {
+    "prompt": "Use case: stylized-concept. Asset type: production terrain texture atlas for a dark fantasy pixel-art mobile game. Create an exact 4-column by 2-row grid of eight equally sized square SEAMLESS top-down terrain textures, no gutters, no labels, no objects, no perspective, no lighting gradients. Row 1 left to right: muted mossy olive grass with very tiny grit; frost-dusted gray earth; dark swamp moss and damp mud; dark volcanic ash gravel. Row 2: worn warm dirt road; closely fitted small gray cobblestones; icy gray road; dark basalt paving. Very fine small pixel-art material detail appropriate for characters 48 pixels tall standing on 128 pixel tiles. Uniform diffuse overcast light, earthy subdued palette, original grounded fantasy style. Each square texture must tile seamlessly with itself. Output landscape 2:1 1536x768 or similar, exactly4x2 grid, edge to edge opaque texture.",
+    "source": "/Users/gurkiratpanesar/.codex/generated_images/01a161bb-cade-7d01-895d-85ae562d2f01/exec-eca1cc01-b290-4964-8f10-0654a42dd2de.png"
+  },
+  "icon": {
+    "prompt": "Use case: logo-brand. Asset type: iPhone and iPad game app icon, opaque square 1024x1024. Primary request: original dark fantasy pixel-art emblem for Ashen Banner. A weathered teal clan banner wrapped around a dark iron sword, a small warm gold ember emblem on the cloth, against a charcoal smoky stone background. Strong bold centered silhouette, premium restrained palette, moody cinematic lighting, crisp detailed pixel clusters, grounded medieval fantasy, no cartoon face, no text, no lettering, no rounded corner frame, no transparency. Must remain recognizable at tiny app-icon size. Full-bleed square artwork.",
+    "source": "/Users/gurkiratpanesar/.codex/generated_images/01a161bb-cade-7d01-895d-85ae562d2f01/exec-bc66eaed-5dee-4b14-9bc1-c838cd116424.png"
+  }
+}

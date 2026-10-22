@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        margin: 0;
+        background: #111;
+        color: #fff;
+        font: 13px monospace;
+      }
+      canvas {
+        width: 100vw;
+        height: 100vh;
+        display: block;
+      }
+      #info {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        line-height: 1.8;
+        background: #07110bda;
+        padding: 15px;
+      }
+      button {
+        padding: 10px;
+        margin-top: 10px;
+      }
+      #pause-panel.hidden {
+        display: none;
+      }
+      #pause-panel {
+        position: absolute;
+        top: 45%;
+        left: 45%;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="battle-canvas"></canvas>
+    <div id="info">
+      <b>941-unit stress test • independent of campaign save</b>
+      <div id="battle-count"></div>
+      <div id="battle-message"></div>
+      <div id="battle-status"></div>
+      <button id="pause">Pause / resume</button
+      ><button id="army">Overview</button>
+    </div>
+    <div id="pause-panel" class="hidden">PAUSED</div>
+    <script type="module">
+      import { Battle } from "/src/battle.ts";
+      import { freshSave, territories } from "/src/data.ts";
+      const save = freshSave();
+      save.squads = [125, 125, 125, 125];
+      save.settings.sound = false;
+      const battle = new Battle(
+        document.querySelector("canvas"),
+        save,
+        territories[15],
+        (r) => {
+          document
+            .querySelector("#info")
+            .append(document.createTextNode(JSON.stringify(r)));
+        },
+      );
+      battle.player.hp = battle.player.max = 100000;
+      document.querySelector("#pause").onclick = () => battle.togglePause();
+      document.querySelector("#army").onclick = () =>
+        battle.setOverview(!battle.overview);
+    </script>
+  </body>
+</html>

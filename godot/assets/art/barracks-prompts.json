@@ -1,0 +1,6 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: stylized-concept. Asset type: a single transparent pixel-art building sprite for a top-down fantasy Godot game. Reference image is STYLE AND CAMERA reference only. Create ONE clan barracks, grounded dark medieval fantasy, elevated front three-quarter view matching reference buildings. Wide timber-and-stone military longhouse, slate roof, open central entrance facing bottom of image, teal clan pennants, mounted shields, weapon racks along outside walls, small recruiting desk beside entrance. Warm lantern light. Crisp textured pixel clusters, muted moss stone timber and teal palette. Entire building visible with generous transparent margins. No people, no terrain rectangle, no text, no labels, no UI, no background. Square canvas, building roughly 75% width, base aligned horizontally. Keep silhouette distinct from town hall and smithy.",
+  "source": "/Users/gurkiratpanesar/.codex/generated_images/01a161bb-cade-7d01-895d-85ae562d2f01/exec-4f668abc-224c-4442-838a-8b3898afefea.png",
+  "destination": "assets/art/barracks.png"
+}
